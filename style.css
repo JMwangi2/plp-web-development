@@ -1,0 +1,25 @@
+header{
+    background-color: aqua;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 10px 5px;
+}
+.intro{
+    background-color: antiquewhite;
+    margin: 0px 10px;
+    padding: 10px 5px;
+    
+}
+.skills{
+    background-color: bisque;
+    padding: 10px;
+    margin: 0px 10px;
+}
+li{
+    padding: 5px 0px;
+}
+.contact{
+    padding: 10px 10px;
+    margin: 0px 10px;
+    background-color: blanchedalmond;
+}
