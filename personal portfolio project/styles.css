@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    -web-font-smoothing:antialiased;
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin:0 auto;
+}
+/*Navigation bar styling*/
+header {
+    background-color: rgb(31, 29, 29);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100% );
+}
+
+
+header nav a{
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all 0.2 ease;
+
+}
+header nav a:hover{
+    color: var(--primary);
+
+}
+header nav {
+    padding: 2rem 0;
+
+}
+header nav .logo{
+    margin-right: 3rem;
+}
+
+/*Body styling*/
+body{
+    background-color: rgb(37, 35, 35);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+.right-flex{
+    color:var(--white);
+    margin-top: 4rem;
+    margin-left: 1rem;
+
+}
+h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+h1 span{
+    color: var(--primary);
+}
+p{
+    line-height: 1.9;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+
+}
